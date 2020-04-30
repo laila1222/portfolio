@@ -1,0 +1,26 @@
+@import '../../sass/abstracts/variables';
+
+.navbar {
+    position: fixed;
+    right: 5rem;
+    top: 3rem;
+
+    &__link {
+        &:link, &:visited {
+            color: $color-white;
+            text-decoration: none;
+            font-size: 2rem;
+            font-family: "Quicksand", sans-serif;
+            padding: 1rem 2rem;
+            margin: 0 1rem;
+            border: 1px solid transparent;
+            border-radius: 3rem;
+            transition: all .5s;
+        }
+
+        &:hover {
+            border: 1px solid $color-white;
+        }
+        
+    }
+}
