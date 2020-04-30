@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Abhaya+Libre|Catamaran|Quicksand&display=swap");
 *,
 *::before,
 *::after {
@@ -13,9 +14,47 @@ body {
   width: 100vw; }
 
 body {
+  font-family: "Catamaran", sans-serif;
   font-weight: 400;
-  line-height: 1.7; }
+  line-height: 1.7;
+  color: black; }
+
+.primary-heading {
+  font-family: "Abhaya Libre", serif;
+  letter-spacing: 3px; }
+
+.secondary-heading {
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px; }
+
+.u-flex {
+  display: flex; }
+
+.u-space-between {
+  justify-content: space-between; }
+
+.u-center-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 5rem; }
+
+.u-margin-bottom-small {
+  margin-bottom: 2.5rem; }
+
+.u-margin-bottom-smallest {
+  margin-bottom: 1.5rem; }
 
 .section-header {
-  background-image: url(../images/bg-modified.jpg);
+  background-image: linear-gradient(to right bottom, rgba(4, 56, 4, 0.5), rgba(21, 100, 6, 0.5)), url(../images/bg-modified.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh; }
