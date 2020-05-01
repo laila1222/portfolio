@@ -5,7 +5,7 @@
     "url": "www.something.hu",
     "codeUrl":
       "https://github.com/Laila1222/lillaKorosi.github.io/blob/master/projects/javascript/Wheater%20app%20with%20local%20storage/index.html",
-    "image": "../images/weatherApp",
+    "image": "/images/weather.jpg",
     "id": "weatherApp"
   },
   {
@@ -14,7 +14,7 @@
     "url": "www.something.hu",
     "codeUrl":
       "https://github.com/Laila1222/lillaKorosi.github.io/blob/master/projects/javascript/Wheater%20app%20with%20local%20storage/index.html",
-    "image": "../images/weatherApp",
+    "image": "/images/emoji-helper.jpeg",
     "id": "githubApp"
   },
   {
@@ -23,7 +23,7 @@
     "url": "www.something.hu",
     "codeUrl":
       "https://github.com/Laila1222/lillaKorosi.github.io/blob/master/projects/javascript/Wheater%20app%20with%20local%20storage/index.html",
-    "image": "../images/weatherApp",
+    "image": "/images/mealsharing.jpg",
     "id": "emojiApp"
   }
 ]
