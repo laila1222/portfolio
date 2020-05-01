@@ -1,0 +1,12 @@
+@import '../../sass/abstracts/variables';
+
+.technology {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    display: inline-block;
+    background-color: $color-primary;
+    padding: .7rem 1.5rem;
+    border-radius: 3rem;
+    box-shadow: $box-shadow;
+    color: $color-white;
+}

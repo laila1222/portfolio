@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Weather App",
+    "technologies": ["Html", "Css", "JavaScript"],
+    "url": "www.something.hu",
+    "codeUrl":
+      "https://github.com/Laila1222/lillaKorosi.github.io/blob/master/projects/javascript/Wheater%20app%20with%20local%20storage/index.html",
+    "image": "../images/weatherApp",
+    "id": "weatherApp"
+  },
+  {
+    "name": "Github App",
+    "technologies": ["Html", "Css", "JavaScript"],
+    "url": "www.something.hu",
+    "codeUrl":
+      "https://github.com/Laila1222/lillaKorosi.github.io/blob/master/projects/javascript/Wheater%20app%20with%20local%20storage/index.html",
+    "image": "../images/weatherApp",
+    "id": "githubApp"
+  },
+  {
+    "name": "Emoji App",
+    "technologies": ["Html", "Css", "JavaScript"],
+    "url": "www.something.hu",
+    "codeUrl":
+      "https://github.com/Laila1222/lillaKorosi.github.io/blob/master/projects/javascript/Wheater%20app%20with%20local%20storage/index.html",
+    "image": "../images/weatherApp",
+    "id": "emojiApp"
+  }
+]

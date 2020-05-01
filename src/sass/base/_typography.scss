@@ -9,6 +9,11 @@ body {
   color: $color-black;
 }
 
+h1, h2, h3, p{
+    margin: 0;
+    padding: 0;
+}
+
 .primary-heading {
   font-family: "Abhaya Libre", serif;
   letter-spacing: 3px;
@@ -17,4 +22,9 @@ body {
 .secondary-heading {
   font-family: "Quicksand", sans-serif;
   letter-spacing: 1px;
+}
+
+.tertiary-heading {
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 1px;
 }

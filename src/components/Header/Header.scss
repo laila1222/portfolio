@@ -2,25 +2,20 @@
 @import "../../sass/base/animtations";
 
 .header {
-
-
   color: $color-white;
-  text-align: center;
-  
-
 
   &__primary-heading {
     font-size: 5rem;
     font-weight: 500;
     animation-name: moveInBottom;
-  animation-duration: 1.5s;
+    animation-duration: 1.5s;
   }
 
   &__secondary-heading {
     font-size: 2rem;
     font-weight: 500;
     animation-name: moveInBottom;
-  animation-duration: 1.5s;
+    animation-duration: 1.5s;
   }
 
   &__button {
@@ -29,22 +24,22 @@
       color: $color-white;
       text-decoration: none;
       font-size: 2rem;
-      padding: 1.2rem 2rem 1.2rem 2rem; 
+      padding: 1.2rem 2rem 1.2rem 2rem;
       border: 1px solid $color-white;
       border-radius: 3rem;
-      transition: all .5s;
+      transition: all 0.5s;
       backface-visibility: hidden;
       box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
       display: inline-block;
       animation-name: moveInBottom;
-  animation-duration: 1.5s;
+      animation-duration: 2s;
     }
 
     &:hover {
-        background-color: $color-white;
-        color: $color-black;
-        transform: translateY(-3px) scale(1.02);
-        backface-visibility: hidden;
+      background-color: $color-white;
+      color: $color-black;
+      transform: translateY(-3px) scale(1.02);
+      backface-visibility: hidden;
     }
   }
 }

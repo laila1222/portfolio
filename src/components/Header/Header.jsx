@@ -3,8 +3,8 @@ import './Header.scss';
 
 function Header() {
   return (
-    <section className="section-header">
-      <div className="header u-center-middle">
+    <section className="section-header u-margin-bottom-big">
+      <div className="header u-center-middle u-text-center">
         <h1 className="header__primary-heading primary-heading">Hi, I am Lilla</h1>
         <h2 className="header__secondary-heading secondary-heading u-margin-bottom-small">
           A Copenhagen based front end developer with passion in creating
