@@ -8,7 +8,7 @@ function ProjectCard({ imageSrc }) {
         <img src={imageSrc} alt="project image" className="card__img" />
       </div>
       <div className="card__side card__side--back">
-        <img src={imageSrc} alt="project image" className="card__img" />
+        {/* <img src={imageSrc} alt="project image" className="card__img" /> */}
         {/* Layer over image to change color */}
         <div className="card__layer"></div>
 

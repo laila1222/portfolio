@@ -63,10 +63,9 @@ h1, h2, h3, p {
   margin-bottom: 1.5rem; }
 
 .section-header {
-  background-image: url(../images/bg-modified.jpg);
-  background-image: linear-gradient(to right bottom, rgba(4, 56, 4, 0.5), rgba(21, 100, 6, 0.5)), url(../images/bg-modified.jpg);
+  background-image: linear-gradient(to right bottom, rgba(80, 25, 43, 0.671), rgba(78, 22, 41, 0.5)), url(../images/blackwhite.jpg);
   background-attachment: fixed;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh; }
