@@ -1,15 +1,17 @@
 @import '../../sass/abstracts/variables';
+@import "../../sass/base/animtations";
 
 .about {
 
     &__container {
-        
+        width: 80%;
         position: relative;
         top: 10rem;
+        margin: 0 auto;
     }
     &__content {
-        width: 80%;
-        margin: 0 auto;
+        
+        justify-content: space-between ;
     }
     &__heading {
         font-size: 5rem;
@@ -18,7 +20,7 @@
     }
 
     &__text-container {
-        width: 50%;
+        width: 40%;
     }
 
     &__text {
@@ -26,31 +28,88 @@
     }
 
     &__features {
-        width: 50%;
         justify-content: space-around;
         
+    }
+
+    &__image-container {
+        width: 60%;
+    }
+
+    &__image {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
     }
 }
 
 .feature {
-    background-color: $color-white;
-    padding: 2rem;
-    margin: 0 2rem;
-    // border: 1px solid $color-black;
-    border-radius: 3px;
-    box-shadow: $box-shadow;
-    width: 50%;
+    
 
     &__icon {
         font-size: 3rem;
-        margin: 2rem auto;
-        display: block;
+        margin: 2rem 2rem 2rem 0;
+        display: inline;
         color: $color-primary;
+        position: relative;
+        top: 2.5rem;
+    }
+
+    &__arrow {
+        font-size: 1.8rem;
+        margin: 0 2rem;
+        // display: block;
+        color: $color-primary;
+        animation-name: moveRightAndLeft;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
     }
 
     &__heading {
         font-size: 1.5rem;
+        display: inline;
+        background-color: $color-white;
+        padding: 2rem;
+        border-radius: 3rem;
+        // border: 1px solid $color-primary;
     }
+
+    &__list {
+        margin-top: 3rem;
+    }
+
+    // List of technologies and softwares are not visible by default
+    &__list--tech, &__list--soft {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    // Hover the technologies, list should be displayed
+    &--tech:hover &__list--tech {
+        opacity: 1;
+        visibility: visible;
+        transition: visibility 0s, opacity 2s;
+    }
+
+    // Hover the technologies, height of feature should be increased
+    &--tech:hover {
+        // width: 100%;
+    }
+
+    // Hover the softwares, list should be displayed
+    &--soft:hover &__list--soft {
+        opacity: 1;
+        visibility: visible;
+        transition: visibility 0s, opacity 3s ;
+    }
+
+    // Hover the softwares, height of feature should be increased
+    &--soft:hover {
+        height: 100%;
+    }
+    
+
+
 
     &__item {
         font-size: 1.5rem;
@@ -63,5 +122,14 @@
         color: $color-white;
         transition: all .2s;
         backface-visibility: hidden;
+
+        &:hover {
+            background-color: $color-primary;
+            transform: scale(1.05);
+        }
     }
+
+    
+
+
 }

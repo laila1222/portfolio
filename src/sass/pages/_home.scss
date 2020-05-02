@@ -24,14 +24,24 @@ max-width: 100vw;
 
 .section-about {
   background-color: rgba($color-grey, .3);
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   position: relative;
 }
 
 .section-contact {
-  // background-color: rgba($color-grey, .3);
-  // height: 100vh;
-  // width: 100%;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-white, 0.671),
+      rgba($color-primary, 0.5)
+    ),
+    url(../images/contact-bg4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 70vh;
+  width: 100%;
+  position: relative;
   
 }

@@ -1,4 +1,21 @@
 @import '../../sass/abstracts/variables';
 
 .contact {
+        // top: 40%!important;
+        background-color: rgba($color-white, .3);
+        width: 50%;
+        padding: 3rem;
+        border-radius: 3rem;
+        box-shadow: $box-shadow;
+    &__heading {
+        font-size: 5rem;
+    }
+
+    &__text {
+        font-size: 3rem;
+    }
+
+    &__link {
+        color: $color-primary;
+    }
 }

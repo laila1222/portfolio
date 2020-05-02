@@ -85,6 +85,16 @@ h1, h2, h3, p {
 
 .section-about {
   background-color: rgba(180, 180, 180, 0.3);
-  height: 100vh;
+  height: 120vh;
+  width: 100%;
+  position: relative; }
+
+.section-contact {
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.671), rgba(110, 41, 51, 0.5)), url(../images/contact-bg4.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
   width: 100%;
   position: relative; }
