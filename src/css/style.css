@@ -98,3 +98,8 @@ h1, h2, h3, p {
   height: 70vh;
   width: 100%;
   position: relative; }
+
+.footer {
+  height: 6rem;
+  background-color: #3b3b3b;
+  position: relative; }

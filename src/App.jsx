@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Projects from "./components/Projects/Projects";
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
+import Footer from './components/Footer/Footer';
 
 // Data for projects
 import ProjectsData from './projects/Projects.json';
@@ -52,6 +53,7 @@ class App extends Component {
       <Projects projects={ProjectsData} />
       <About />
       <Contact />
+      <Footer />
     </div>
     )
   }
