@@ -7,7 +7,7 @@ import "./Project.scss";
 function Project({ name, technologies, imageSrc }) {
   console.log(name, technologies, imageSrc);
   return (
-    <div className="project u-flex u-margin-bottom-big">
+    <div className="project u-flex u-margin-bottom-bigger">
       <div className="project__text-container">
         <div className="project__text-container--inner u-center-middle">
           <h3 className="project__title tertiary-heading u-text-center ">

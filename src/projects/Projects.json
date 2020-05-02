@@ -1,29 +1,38 @@
 [
   {
     "name": "Weather App",
-    "technologies": ["Html", "Css", "JavaScript"],
-    "url": "www.something.hu",
+    "technologies": ["Html", "Css", "JavaScript", "API"],
+    "url": "https://weather-app-hyf.herokuapp.com/",
     "codeUrl":
-      "https://github.com/Laila1222/lillaKorosi.github.io/blob/master/projects/javascript/Wheater%20app%20with%20local%20storage/index.html",
+      "https://github.com/Laila1222/homework-hyf/tree/master/javascript/javascript3/week1/Weather%20app%20without%20local%20storage",
     "image": "/images/weather.jpg",
     "id": "weatherApp"
   },
   {
-    "name": "Github App",
-    "technologies": ["Html", "Css", "JavaScript"],
-    "url": "www.something.hu",
+    "name": "Github User Search",
+    "technologies": ["React", "API", "Html", "Css", "BootStrap"],
+    "url": "https://hyf-github-searcher.herokuapp.com/",
     "codeUrl":
-      "https://github.com/Laila1222/lillaKorosi.github.io/blob/master/projects/javascript/Wheater%20app%20with%20local%20storage/index.html",
-    "image": "/images/emoji-helper.jpeg",
+      "https://github.com/Laila1222/github-searcher",
+    "image": "/images/github-search.jpg",
     "id": "githubApp"
   },
   {
-    "name": "Emoji App",
-    "technologies": ["Html", "Css", "JavaScript"],
-    "url": "www.something.hu",
+    "name": "Meal Share",
+    "technologies": ["NodeJs", "MySQL", "Html", "Css", "JavaScript", "BootStrap"],
+    "url": "https://hyf-mealsharing.herokuapp.com/",
     "codeUrl":
-      "https://github.com/Laila1222/lillaKorosi.github.io/blob/master/projects/javascript/Wheater%20app%20with%20local%20storage/index.html",
-    "image": "/images/mealsharing.jpg",
+      "https://github.com/Laila1222/meal-sharing",
+    "image": "/images/mealshare.jpg",
+    "id": "mealShareApp"
+  },
+  {
+    "name": "Emoji Finder",
+    "technologies": ["Html", "Css", "JavaScript", "API"],
+    "url": "https://emoji-finder-hyf.herokuapp.com/",
+    "codeUrl":
+      "https://github.com/Laila1222/homework-hyf/tree/master/javascript/javascript3/week4/Emoji-helper",
+    "image": "/images/emoji-helper.jpeg",
     "id": "emojiApp"
   }
 ]

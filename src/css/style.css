@@ -17,7 +17,7 @@ body {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: black; }
+  color: #180008; }
 
 h1, h2, h3, p {
   margin: 0;
@@ -28,11 +28,11 @@ h1, h2, h3, p {
   letter-spacing: 3px; }
 
 .secondary-heading {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Abhaya Libre", serif;
   letter-spacing: 1px; }
 
 .tertiary-heading {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Catamaran", sans-serif;
   letter-spacing: 1px; }
 
 .u-flex {
@@ -53,6 +53,9 @@ h1, h2, h3, p {
 .u-margin-bottom-big {
   margin-bottom: 8rem; }
 
+.u-margin-bottom-bigger {
+  margin-bottom: 12rem; }
+
 .u-margin-bottom-medium {
   margin-bottom: 5rem; }
 
@@ -61,6 +64,12 @@ h1, h2, h3, p {
 
 .u-margin-bottom-smallest {
   margin-bottom: 1.5rem; }
+
+.u-margin-top-medium {
+  margin-top: 5rem; }
+
+.u-margin-top-big {
+  margin-top: 8rem; }
 
 .section-header {
   background-image: linear-gradient(to right bottom, rgba(80, 25, 43, 0.671), rgba(78, 22, 41, 0.5)), url(../images/blackwhite.jpg);
@@ -73,3 +82,9 @@ h1, h2, h3, p {
 .section-projects {
   max-width: 100vw;
   background-color: #ffff; }
+
+.section-about {
+  background-color: rgba(180, 180, 180, 0.3);
+  height: 100vh;
+  width: 100%;
+  position: relative; }
