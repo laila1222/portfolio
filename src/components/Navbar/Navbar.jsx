@@ -1,4 +1,6 @@
 import React from "react";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 import "./Navbar.scss";
 
 
@@ -6,15 +8,15 @@ import "./Navbar.scss";
 function Navbar() {
   return (
     <div className="navbar">
-      <a href="#" className="navbar__link">
+      <AnchorLink href="#about" className="navbar__link">
         About
-      </a>
-      <a href="#" className="navbar__link">
+      </AnchorLink>
+      <AnchorLink href="#projects" className="navbar__link">
         Projects
-      </a>
-      <a href="#" className="navbar__link">
+      </AnchorLink>
+      <AnchorLink href="#contact" className="navbar__link">
         Contact
-      </a>
+      </AnchorLink>
     </div>
   );
 }

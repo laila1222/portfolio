@@ -1,4 +1,6 @@
 import React from "react";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 import './Header.scss';
 
 function Header() {
@@ -11,7 +13,7 @@ function Header() {
           dynamic websites providing clean and responsive code with
           user-friendly experience.
         </h2>
-        <a href="#" className="header__button ">View my work</a>
+        <AnchorLink href="#projects" className="header__button ">View my work</AnchorLink>
       </div>
     </section>
   );

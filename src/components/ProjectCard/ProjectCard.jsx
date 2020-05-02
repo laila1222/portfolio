@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectCard.scss";
 
-function ProjectCard({ imageSrc }) {
+function ProjectCard({ imageSrc, codesUrl, url }) {
   return (
     <div className="card">
       <div className="card__side card__side--front">
@@ -13,10 +13,10 @@ function ProjectCard({ imageSrc }) {
         <div className="card__layer"></div>
 
         <div className="card__cta u-center-middle u-flex">
-          <a href="#" className="card__link card__link--code u-text-center">
+          <a href={codesUrl} className="card__link card__link--code u-text-center" target="_blank">
             Check out code
           </a>
-          <a href="#" className="card__link card__link--site u-text-center">
+          <a href={url} className="card__link card__link--site u-text-center" target="_blank">
             Visit site
           </a>
         </div>

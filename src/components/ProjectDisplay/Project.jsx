@@ -4,8 +4,8 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 
 import "./Project.scss";
 
-function Project({ name, technologies, imageSrc }) {
-  console.log(name, technologies, imageSrc);
+function Project({ name, technologies, imageSrc, codesUrl, url }) {
+  console.log(name, technologies, imageSrc, codesUrl, url);
   return (
     <div className="project u-flex u-margin-bottom-bigger">
       <div className="project__text-container">
@@ -23,7 +23,7 @@ function Project({ name, technologies, imageSrc }) {
       </div>
 
       <div className="project__card">
-        <ProjectCard imageSrc={imageSrc} />
+        <ProjectCard imageSrc={imageSrc} codesUrl={codesUrl} url={url} />
       </div>
     </div>
   );

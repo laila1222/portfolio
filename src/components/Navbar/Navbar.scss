@@ -4,12 +4,14 @@
     position: fixed;
     right: 8rem;
     top: 3rem;
+    z-index: 9;
 
     &__link {
         &:link, &:visited {
             color: $color-white;
             text-decoration: none;
             font-size: 2rem;
+            font-weight: 600;
             font-family: "Quicksand", sans-serif;
             padding: 1rem 2rem;
             margin: 0 1rem;

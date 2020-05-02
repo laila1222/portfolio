@@ -3,7 +3,7 @@ import "./Contact.scss";
 
 function Contact() {
   return (
-    <section className="section-contact ">
+    <section className="section-contact" id="contact">
       <div className="contact u-center-middle">
         <h2 className="secondary-heading contact__heading u-text-center u-margin-bottom-medium">
           Let's get in touch 
