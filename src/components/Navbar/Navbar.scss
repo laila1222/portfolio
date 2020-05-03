@@ -12,9 +12,9 @@
         right: 3rem;
       }
 
-      @include respond(phone) {
-        display: none;
-    }
+
+
+   
 
     &__link {
         &:link, &:visited {
@@ -36,6 +36,7 @@
         }
         
     }
+
 }
 
 .navbar-container {
@@ -51,6 +52,7 @@
 
     @include respond(phone) {
         display: none;
+
     }
 }
 
@@ -62,6 +64,43 @@
       position: fixed!important;
       top: 3rem;
       right: 3rem;
-      z-index: 9;
+      z-index: 19;
+    }
+  }
+
+
+  .navbar-phone {
+    position: fixed;
+    display: none;
+        z-index: 9;
+
+    &__layer {
+        width: 100vw;
+        height: 100vh;
+        background-color: $color-primary-dark;
+        
+        
+    }
+
+    &__link-container {
+        top: 45%!important;
+
+    }
+
+    &__link {
+        &:link, &:visited {
+            color: $color-white;
+            text-decoration: none;
+            text-align: center;
+            font-size: 3rem;
+            font-weight: 600;
+            font-family: "Quicksand", sans-serif;
+            padding: 1rem 2rem;
+            margin: 2rem;
+            border: 1px solid transparent;
+            border-radius: 3rem;
+            transition: all .5s;
+            display: block;
+        }
     }
   }
