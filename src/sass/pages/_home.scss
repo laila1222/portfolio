@@ -35,9 +35,13 @@ max-width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  min-height: 195vh;
+  min-height: 145vh;
   width: 100%;
   position: relative;
+
+  @include respond(phone) {
+    min-height: 200vh;
+  }
 }
 
 .section-contact {

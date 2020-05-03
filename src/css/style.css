@@ -104,9 +104,12 @@ h1, h2, h3, p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 195vh;
+  min-height: 145vh;
   width: 100%;
   position: relative; }
+  @media (max-width: 37.5em) {
+    .section-about {
+      min-height: 200vh; } }
 
 .section-contact {
   background-color: #18070d;

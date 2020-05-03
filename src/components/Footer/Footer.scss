@@ -1,14 +1,21 @@
 @import '../../sass/abstracts/variables';
+@import '../../sass/abstracts/mixins';
 
 .footer {
     
     &__container {
+        @include respond(phone) {
+            width: 90%;
+          }
     }
 
     &__text {
         color: $color-grey;
         font-size: 1.5rem;
         letter-spacing: 1px;
+
+        
+        
     }
 
     &__icon {
