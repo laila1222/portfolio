@@ -12,6 +12,10 @@
         right: 3rem;
       }
 
+      @include respond(phone) {
+        display: none;
+    }
+
     &__link {
         &:link, &:visited {
             color: $color-white;
@@ -44,4 +48,20 @@
     @include respond(tab-port) {
         height: 8vh;
     }
+
+    @include respond(phone) {
+        display: none;
+    }
 }
+
+.hamburger {
+    display: none;
+  
+    @include respond(phone) {
+      display: block;
+      position: fixed!important;
+      top: 3rem;
+      right: 3rem;
+      z-index: 9;
+    }
+  }
