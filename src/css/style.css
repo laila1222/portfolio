@@ -99,12 +99,12 @@ h1, h2, h3, p {
   background-color: #ffff; }
 
 .section-about {
-  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.971), rgba(255, 255, 255, 0.5)), url(../images/contact-bg4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.971), rgba(255, 255, 255, 0.5)), url(../images/contact-bg4Small.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 165vh;
+  min-height: 195vh;
   width: 100%;
   position: relative; }
 
