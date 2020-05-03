@@ -15,14 +15,14 @@ class Navbar extends Component {
   }
 
   menuClicked = () => {
-    console.log("clicked");
     const navPhone = this.navPhoneRef.current;
-    // console.log(nav);
+// Display phone menu if hamburger button is pressed
     if (!this.state.open) {
       this.setState({ open: !this.state.open }, () => {
         navPhone.style.display = "block";
       });
     } else {
+      // Remove phone nav 
       this.setState({ open: !this.state.open }, () => {
         navPhone.style.display = "none";
       });

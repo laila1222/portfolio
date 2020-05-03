@@ -1,106 +1,97 @@
-@import '../../sass/abstracts/variables';
-@import '../../sass/abstracts/mixins';
+@import "../../sass/abstracts/variables";
+@import "../../sass/abstracts/mixins";
 
 .navbar {
-    position: fixed;
-    right: 8rem;
-    top: 1.5rem;
-    z-index: 9;
-    transition: all .4s;
+  position: fixed;
+  right: 8rem;
+  top: 1.5rem;
+  z-index: 9;
+  transition: all 0.4s;
 
-    @include respond(tab-port) {
-        right: 3rem;
-      }
+  @include respond(tab-port) {
+    right: 3rem;
+  }
 
-
-
-   
-
-    &__link {
-        &:link, &:visited {
-            color: $color-white;
-            text-decoration: none;
-            font-size: 2rem;
-            font-weight: 600;
-            font-family: "Quicksand", sans-serif;
-            padding: 1rem 2rem;
-            margin: 0 1rem;
-            border: 1px solid transparent;
-            border-radius: 3rem;
-            transition: all .5s;
-            display: inline-block;
-        }
-
-        &:hover {
-            transform: translateY(-5px);
-        }
-        
+  &__link {
+    &:link,
+    &:visited {
+      color: $color-white;
+      text-decoration: none;
+      font-size: 2rem;
+      font-weight: 600;
+      font-family: "Quicksand", sans-serif;
+      padding: 1rem 2rem;
+      margin: 0 1rem;
+      border: 1px solid transparent;
+      border-radius: 3rem;
+      transition: all 0.5s;
+      display: inline-block;
     }
 
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
 }
 
 .navbar-container {
-    width: 100vw;
-    background-color: transparent;
-    height: 10vh;
-    position: fixed;
-    z-index: 10;
+  width: 100vw;
+  background-color: transparent;
+  height: 10vh;
+  position: fixed;
+  z-index: 10;
 
-    @include respond(tab-port) {
-        height: 8vh;
-    }
+  @include respond(tab-port) {
+    height: 8vh;
+  }
 
-    @include respond(phone) {
-        display: none;
-
-    }
+  @include respond(phone) {
+    display: none;
+  }
 }
 
 .hamburger {
-    display: none;
-  
-    @include respond(phone) {
+  display: none;
+
+  @include respond(phone) {
+    display: block;
+    position: fixed !important;
+    top: 3rem;
+    right: 3rem;
+    z-index: 19;
+  }
+}
+
+.navbar-phone {
+  position: fixed;
+  display: none;
+  z-index: 9;
+
+  &__layer {
+    width: 100vw;
+    height: 100vh;
+    background-color: $color-primary-dark;
+  }
+
+  &__link-container {
+    top: 45% !important;
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      color: $color-white;
+      text-decoration: none;
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 600;
+      font-family: "Quicksand", sans-serif;
+      padding: 1rem 2rem;
+      margin: 2rem;
+      border: 1px solid transparent;
+      border-radius: 3rem;
+      transition: all 0.5s;
       display: block;
-      position: fixed!important;
-      top: 3rem;
-      right: 3rem;
-      z-index: 19;
     }
   }
-
-
-  .navbar-phone {
-    position: fixed;
-    display: none;
-        z-index: 9;
-
-    &__layer {
-        width: 100vw;
-        height: 100vh;
-        background-color: $color-primary-dark;
-        
-        
-    }
-
-    &__link-container {
-        top: 45%!important;
-
-    }
-
-    &__link {
-        &:link, &:visited {
-            color: $color-white;
-            text-decoration: none;
-            text-align: center;
-            font-size: 3rem;
-            font-weight: 600;
-            font-family: "Quicksand", sans-serif;
-            padding: 1rem 2rem;
-            margin: 2rem;
-            border: 1px solid transparent;
-            border-radius: 3rem;
-            transition: all .5s;
-            display: block;
-        }
-    }
-  }
+}
