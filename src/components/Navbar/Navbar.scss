@@ -1,10 +1,16 @@
 @import '../../sass/abstracts/variables';
+@import '../../sass/abstracts/mixins';
 
 .navbar {
     position: fixed;
     right: 8rem;
-    top: 3rem;
+    top: 1.5rem;
     z-index: 9;
+    transition: all .4s;
+
+    @include respond(tab-port) {
+        right: 3rem;
+      }
 
     &__link {
         &:link, &:visited {
@@ -18,11 +24,24 @@
             border: 1px solid transparent;
             border-radius: 3rem;
             transition: all .5s;
+            display: inline-block;
         }
 
         &:hover {
-            border: 1px solid $color-white;
+            transform: translateY(-5px);
         }
         
+    }
+}
+
+.navbar-container {
+    width: 100vw;
+    background-color: transparent;
+    height: 10vh;
+    position: fixed;
+    z-index: 10;
+
+    @include respond(tab-port) {
+        height: 8vh;
     }
 }

@@ -64,6 +64,9 @@ h1, h2, h3, p {
 
 .u-margin-bottom-big {
   margin-bottom: 8rem; }
+  @media (max-width: 56.25em) {
+    .u-margin-bottom-big {
+      margin-bottom: 6rem; } }
 
 .u-margin-bottom-bigger {
   margin-bottom: 12rem; }
@@ -96,18 +99,18 @@ h1, h2, h3, p {
   background-color: #ffff; }
 
 .section-about {
-  background-color: rgba(180, 180, 180, 0.3);
-  height: 120vh;
-  width: 100%;
-  position: relative; }
-
-.section-contact {
-  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.671), rgba(110, 41, 51, 0.5)), url(../images/contact-bg4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.971), rgba(255, 255, 255, 0.5)), url(../images/contact-bg4.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  min-height: 165vh;
+  width: 100%;
+  position: relative; }
+
+.section-contact {
+  background-color: #18070d;
+  height: 90vh;
   width: 100%;
   position: relative; }
 

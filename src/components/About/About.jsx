@@ -27,7 +27,7 @@ class About extends Component {
     return (
       <section className="section-about about" id="about">
         <div className="about__container">
-          <h2 className="about__heading secondary-heading u-text-center u-margin-bottom-big">
+          <h2 className="about__heading secondary-heading u-text-center u-margin-bottom-medium">
             About me
           </h2>
           <div className="about__content u-flex">
@@ -48,30 +48,33 @@ class About extends Component {
                 responsibilities.
               </p>
             </div>
-            <div className="about__image-container">
+            {/* <div className="about__image-container">
               <img src={PlaceHolder} alt="lilla" className="about__image" />
-            </div>
+            </div> */}
           </div>
-          <div className="about__features">
+          <div className="about__features u-flex">
             <div className="feature feature--tech">
               <h3 className="feature__heading tertiary-heading">
                 <FontAwesomeIcon icon={faTools} className="feature__icon" />
                 Technlogoies I work with
-                <FontAwesomeIcon
+                {/* <FontAwesomeIcon
                   icon={faArrowDown}
                   className="feature__arrow "
-                />
+                /> */}
               </h3>
 
               <div className="feature__list feature__list--tech">
                 <p className="feature__item">HTML</p>
                 <p className="feature__item">CSS</p>
                 <p className="feature__item">Sass</p>
+                <p className="feature__item">Bootstrap</p>
                 <p className="feature__item">JavaScript</p>
-                <p className="feature__item">Node.js</p>
-                <p className="feature__item">Reacj.js</p>
+                <p className="feature__item">NodeJs</p>
+                <p className="feature__item">ReactJs</p>
                 <p className="feature__item">SQL</p>
+                <p className="feature__item">KnexJs</p>
                 <p className="feature__item">Terminal</p>
+                
               </div>
             </div>
             <div className="feature feature--soft">
@@ -81,10 +84,10 @@ class About extends Component {
                   className="feature__icon "
                 />
                 Softwares I use
-                <FontAwesomeIcon
+                {/* <FontAwesomeIcon
                   icon={faArrowDown}
                   className="feature__arrow "
-                />
+                /> */}
               </h3>
 
               <div className="feature__list feature__list--soft">
@@ -92,6 +95,7 @@ class About extends Component {
                 <p className="feature__item">Firebase, Firestore</p>
                 <p className="feature__item">Postman</p>
                 <p className="feature__item">MySQL Workbench</p>
+                <p className="feature__item">Swagger</p>
                 <p className="feature__item">Git Bash</p>
                 <p className="feature__item">Github</p>
                 <p className="feature__item">Figma</p>

@@ -137,8 +137,6 @@
       display: inline-block;
       width: 100%;
       justify-content: space-around;
-
-      // background-color: rgba(0, 0, 0, 0.2);
     }
 
     &__link {
@@ -152,6 +150,14 @@
         box-shadow: $box-shadow-active;
         transform: translateY(2px);
       }
+    }
+  }
+
+  @include respond(phone) {
+    display: block !important;
+
+    &__side--back {
+      height: 13rem;
     }
   }
 }

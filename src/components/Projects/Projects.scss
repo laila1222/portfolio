@@ -1,8 +1,10 @@
 @import '../../sass/abstracts/variables';
+@import '../../sass/abstracts/mixins';
 
 .projects {
     &__heading {
-        font-size: 4rem;
+        font-size: 5rem;
+        color: $color-primary;
         
     }
 

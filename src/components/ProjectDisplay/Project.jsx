@@ -5,7 +5,6 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 import "./Project.scss";
 
 function Project({ name, technologies, imageSrc, codesUrl, url }) {
-  console.log(name, technologies, imageSrc, codesUrl, url);
   return (
     <div className="project u-flex u-margin-bottom-bigger">
       <div className="project__text-container">

@@ -14,18 +14,24 @@ import "./css/style.css";
 class App extends Component {
   changeColor = () => {
     const nav = document.querySelectorAll(".navbar__link");
-    console.log(nav);
+    const navContainer = document.querySelector('.navbar-container');
+    
+    // console.log(nav);
     window.onscroll = () => {
       "use strict";
       if (
-        document.body.scrollTop >= 900 ||
-        document.documentElement.scrollTop >= 900
+        document.body.scrollTop >= 750 ||
+        document.documentElement.scrollTop >= 750
       ) {
+        navContainer.style.backgroundColor = "white";
+        navContainer.style.borderBottom = "1px solid rgb(110, 41, 51)";
         nav.forEach((link) => {
           link.style.color = "rgb(102, 38, 59)";
         });
       } else {
         nav.forEach((link) => {
+          navContainer.style.backgroundColor = "transparent";
+          navContainer.style.borderBottom = "none";
           link.style.color = "white";
         });
       }

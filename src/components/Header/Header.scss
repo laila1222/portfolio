@@ -1,9 +1,14 @@
 @import "../../sass/abstracts/variables";
+@import "../../sass/abstracts/mixins";
 @import "../../sass/base/animtations";
 
 .header {
   color: $color-white;
   left: 45%!important;
+  @include respond(phone) {
+    text-align: center;
+    left: 50%!important;
+  }
 
   &__primary-heading {
     font-size: 5rem;
