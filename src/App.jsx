@@ -39,7 +39,7 @@ class App extends Component {
   render() {
     console.log(ProjectsData);
     return (
-      <div className="App">
+      <div>
         <Navbar />
         <Header />
         <Projects projects={ProjectsData} />
