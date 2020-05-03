@@ -87,7 +87,7 @@ h1, h2, h3, p {
   margin-top: 8rem; }
 
 .section-header {
-  background-image: linear-gradient(to right bottom, rgba(80, 25, 43, 0.671), rgba(78, 22, 41, 0.5)), url(../images/blackwhite.jpg);
+  background-image: linear-gradient(to right bottom, rgba(80, 25, 43, 0.671), rgba(78, 22, 41, 0.5)), url(../images/blackwhiteSmall.jpg);
   background-attachment: fixed;
   background-position: right;
   background-repeat: no-repeat;
