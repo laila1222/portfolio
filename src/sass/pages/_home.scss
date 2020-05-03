@@ -39,9 +39,9 @@ max-width: 100vw;
   width: 100%;
   position: relative;
 
-  @include respond(phone) {
-    min-height: 200vh;
-  }
+  // @include respond(phone) {
+  //   min-height: 200vh;
+  // }
 }
 
 .section-contact {
