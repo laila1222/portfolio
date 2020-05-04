@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the portfolio of Lilla Kőrösi, where you can find a couple of her recent projects. 
+The website was created using React and Sass. 
+
 
 ## Available Scripts
 
