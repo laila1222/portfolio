@@ -4,10 +4,10 @@
 
 .header {
   color: $color-white;
-  left: 45%!important;
+  left: 45% !important;
   @include respond(phone) {
     text-align: center;
-    left: 50%!important;
+    left: 50% !important;
   }
 
   &__primary-heading {
