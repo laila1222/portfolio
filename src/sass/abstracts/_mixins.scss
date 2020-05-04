@@ -1,4 +1,9 @@
 @mixin respond ($breakpoint) {
+    @if $breakpoint == small-phone {
+        @media (max-width: 20em) {
+            @content
+        };
+    }
     @if $breakpoint == phone {
         @media (max-width: 37.5em) { //600px
             @content

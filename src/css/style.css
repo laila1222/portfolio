@@ -104,13 +104,28 @@ h1, h2, h3, p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 145vh;
+  height: 140vh;
   width: 100%;
   position: relative; }
+  @media (max-width: 75em) {
+    .section-about {
+      height: 160vh; } }
+  @media (max-width: 56.25em) {
+    .section-about {
+      height: 130vh; } }
+  @media (max-width: 37.5em) {
+    .section-about {
+      height: 190vh; } }
+  @media (max-width: 20em) {
+    .section-about {
+      height: 205vh; } }
+  @media (min-width: 112.5em) {
+    .section-about {
+      height: 115vh; } }
 
 .section-contact {
   background-color: #18070d;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   position: relative; }
 
