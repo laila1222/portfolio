@@ -2,7 +2,7 @@
   {
     "name": "Weather App",
     "technologies": ["Html", "Css", "JavaScript", "API"],
-    "url": "https://weather-app-hyf.herokuapp.com/",
+    "url": "https://hyf-weather-app.herokuapp.com/",
     "codesUrl":
       "https://github.com/Laila1222/homework-hyf/tree/master/javascript/javascript3/week1/Weather%20app%20without%20local%20storage",
     "image": "/images/weather.jpg",
@@ -11,7 +11,7 @@
   {
     "name": "Github User Search",
     "technologies": ["React", "API", "Html", "Css", "BootStrap"],
-    "url": "https://hyf-github-searcher.herokuapp.com/",
+    "url": "https://github-searcher-hyf.herokuapp.com/",
     "codesUrl":
       "https://github.com/Laila1222/github-searcher",
     "image": "/images/github-search.jpg",
@@ -29,7 +29,7 @@
   {
     "name": "Emoji Finder",
     "technologies": ["Html", "Css", "JavaScript", "API"],
-    "url": "https://emoji-finder-hyf.herokuapp.com/",
+    "url": "https://hyf-emoji-finder.herokuapp.com/",
     "codesUrl":
       "https://github.com/Laila1222/homework-hyf/tree/master/javascript/javascript3/week4/Emoji-helper",
     "image": "/images/emoji-helper.jpeg",
