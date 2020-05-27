@@ -6,6 +6,7 @@
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
+  max-width: 55rem;
 
   &__side {
     transition: all 0.8s ease;

@@ -22,7 +22,6 @@ class App extends Component {
     console.log(hamburgerMenu);
     
     window.onscroll = () => {
-      "use strict";
       if (
         // If user has scrolled down more than 750px from top
         document.body.scrollTop >= 750 ||

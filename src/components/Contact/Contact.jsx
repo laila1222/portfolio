@@ -10,13 +10,13 @@ function Contact() {
         </h2>
         <p className="contact__text ">
           Write me an {" "}
-          <a href="#" className="contact__link">
+          <a href="mailto:korosililla@gmail.com" className="contact__link">
             email
           </a>
         </p>
         <p className="contact__text ">
           Find me on {" "}
-          <a href="#" className="contact__link">
+          <a href="https://www.linkedin.com/in/lilla-korosi/" target="_blank" rel="noopener noreferrer" className="contact__link">
             LinkedIn
           </a>
         </p>

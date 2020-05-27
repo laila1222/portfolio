@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTools } from "@fortawesome/free-solid-svg-icons";
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
-
-import PlaceHolder from "../../images/mountain.jpg";
 
 import "./About.scss";
 
@@ -74,7 +71,6 @@ class About extends Component {
                 <p className="feature__item">SQL</p>
                 <p className="feature__item">KnexJs</p>
                 <p className="feature__item">Terminal</p>
-                
               </div>
             </div>
             <div className="feature feature--soft">
