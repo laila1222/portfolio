@@ -29,7 +29,7 @@ class About extends Component {
           </h2>
           <div className="about__content u-flex">
             <div className="about__text-container ">
-              <p className="about__text u-margin-bottom-small">
+              {/* <p className="about__text u-margin-bottom-small">
                 I am a webdeveloper living in Copenhagen, Denmark, with high
                 motivation for creating beautiful websites for multiple browsers
                 and mobile devices.
@@ -43,7 +43,78 @@ class About extends Component {
                 I could be described as an open and cheerful person who likes
                 working in a team, but also enjoys having individual
                 responsibilities.
-              </p>
+              </p> */}
+
+              <div className="about--text-container">
+                <div className="about__text--col about__text--col--1">
+                  <h3 className="about__text__title tertiary-heading">Story</h3>
+
+                  <p className="about__text">
+                    I entered the coding world in the beginning of 2019, when I
+                    was accepted to {" "}
+                    <a
+                      href="https://www.hackyourfuture.dk/"
+                      className="about__text__link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Hack Your Future
+                    </a>{" "}
+                    coding school. I have never before enjoyed learning and
+                    being focused so much, as I did in the following 8 months. I
+                    learnt new programming concepts languages, tehcnologies
+                    every week, and created projects from schratch.
+                  </p>
+                  <p className="about__text u-margin-bottom-small">
+                    {" "}
+                    After graduation I did an internship as a front end
+                    developer. Since then I have been learning and
+                    improving my skills on my own along with different smaller
+                    courses, and have been developing smaller projects.
+                  </p>
+                </div>
+
+                <div className="about__text--col">
+                  <h3
+                    className="about__text__title tertiary-heading
+"
+                  >
+                    Objectives
+                  </h3>
+                  <p className="about__text ">
+                    I consider myself a front end developer with an interest in
+                    UX and UI design, however I also have backend knowledge and
+                    experience.
+                    <p className="about__text">
+                      This year I am determined to get many more project under
+                      my belt that I can show off, and I would also love to find
+                      a position as a web developer.{" "}
+                    </p>
+                    <p className="about__text u-margin-bottom-small">
+                      As I am participating in the{" "}
+                      <a
+                        href="https://www.100daysofcode.com/"
+                        className="about__text__link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        #100DaysOfCode challenge
+                      </a>
+                      , I am committed to code every day for 100 days, and post
+                      about my progress on{" "}
+                      <a
+                        href="https://twitter.com/lilla_korosi"
+                        className="about__text__link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Twitter
+                      </a>
+                      .
+                    </p>
+                  </p>
+                </div>
+              </div>
             </div>
             {/* <div className="about__image-container">
               <img src={PlaceHolder} alt="lilla" className="about__image" />
