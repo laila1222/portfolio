@@ -62,8 +62,8 @@ class About extends Component {
                     </a>{" "}
                     coding school. I have never before enjoyed learning and
                     being focused so much, as I did in the following 8 months. I
-                    learnt new programming concepts languages, tehcnologies
-                    every week, and created projects from schratch.
+                    learnt new programming concepts languages, technologies
+                    every week, and created projects from scratch.
                   </p>
                   <p className="about__text u-margin-bottom-small">
                     {" "}
