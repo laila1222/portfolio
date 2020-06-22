@@ -7,9 +7,16 @@
   justify-content: space-around;
   height: 25rem;
 
+  @include respond(tab-land) {
+    margin-bottom: 18rem!important;
+
+    
+  }
+
   @include respond(tab-port) {
     display: block !important;
     height: auto;
+    margin-bottom: 0!important;
   }
 
   @include respond(phone) {
