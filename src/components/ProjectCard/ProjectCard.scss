@@ -27,8 +27,6 @@
     &--back {
       background-color: $color-primary;
       transform: rotateY(-180deg);
-      //   Back of card is approx the same size as front.
-
       //   Links are positioned according to back of card
       position: relative;
     }
@@ -98,20 +96,27 @@
     }
   }
 
-  @include respond(tab-port) {
+  @include respond(tab-land) {
     width: 100%;
     height: auto;
-    display: flex !important;
+    // display: flex !important;
+    display: block;
+    margin: 0 auto 18rem auto;
 
     &__side {
       position: relative;
 
       border-radius: 3px;
 
+      &--front {
+        max-height: 25rem;
+      }
+
       &--back {
         transform: rotateY(0);
         background-color: transparent;
         box-shadow: none;
+        height: 13rem;
       }
     }
 
@@ -150,6 +155,10 @@
         transform: translateY(2px);
       }
     }
+  }
+
+  @include respond(tab-port) {
+    margin-bottom: 8rem;
   }
 
   @include respond(phone) {
