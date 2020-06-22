@@ -4,7 +4,7 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 
 import "./Project.scss";
 
-function Project({ name, technologies, imageSrc, codesUrl, url }) {
+function Project({ name, technologies, imageSrc, codesUrl, url, description }) {
   return (
     <div className="project u-flex u-margin-bottom-bigger">
       <div className="project__text-container">
@@ -12,6 +12,7 @@ function Project({ name, technologies, imageSrc, codesUrl, url }) {
           <h3 className="project__title tertiary-heading u-text-center ">
             {name}
           </h3>
+          <div className="project__description">{description}</div>
           <div className="project__technologies u-text-center">
             {technologies.map((tech) => {
               console.log(tech);

@@ -19,6 +19,7 @@ function Projects({ projects }) {
               imageSrc={project.image}
               codesUrl={project.codesUrl}
               url={project.url}
+              description={project.description}
             />
           );
         })}
