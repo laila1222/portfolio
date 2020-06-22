@@ -45,7 +45,7 @@ class About extends Component {
                 responsibilities.
               </p> */}
 
-              <div className="about--text-container">
+              <div className="about--text-container u-margin-bottom-small">
                 <div className="about__text--col about__text--col--1">
                   <h3 className="about__text__title tertiary-heading">Story</h3>
 

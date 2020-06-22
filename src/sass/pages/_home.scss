@@ -1,4 +1,4 @@
-@import '../abstracts/variables';
+@import "../abstracts/variables";
 
 .section-header {
   // background-image: url(../images/mountain.jpg);
@@ -17,8 +17,8 @@
 }
 
 .section-projects {
-// height: 50vh;
-max-width: 100vw;
+  // height: 50vh;
+  max-width: 100vw;
   background-color: $color-white;
 }
 
@@ -31,34 +31,16 @@ max-width: 100vw;
       rgba($color-white, 0.5)
     ),
     url(../images/contact-bg4Small.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  height: 150vh;
-  // height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  height: 100%;
+  padding-bottom: 16rem;
   width: 100%;
   position: relative;
 
-  @include respond(tab-land) {
-    height: 160vh;
-  }
-
-  @include respond(tab-port) {
-    height: 130vh;
-  }
-
-  @include respond(phone) {
-    height: 190vh;
-  }
-
-  @include respond(small-phone) {
-    height: 205vh;
-  }
-
-  @include respond(big-desktop) {
-    height: 115vh;
-  }
 }
 
 .section-contact {
@@ -66,7 +48,6 @@ max-width: 100vw;
   height: 100vh;
   width: 100%;
   position: relative;
-  
 }
 
 .footer {
