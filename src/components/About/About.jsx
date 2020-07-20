@@ -85,6 +85,7 @@ class About extends Component {
                     I consider myself a front end developer with an interest in
                     UX and UI design, however I also have backend knowledge and
                     experience.
+                    </p>
                     <p className="about__text">
                       This year I am determined to get many more project under
                       my belt that I can show off, and I would also love to find
@@ -112,7 +113,7 @@ class About extends Component {
                       </a>
                       .
                     </p>
-                  </p>
+                  
                 </div>
               </div>
             </div>
